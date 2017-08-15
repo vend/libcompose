@@ -11,9 +11,9 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/docker/libcompose/project"
-	"github.com/docker/libcompose/project/options"
-	"github.com/docker/libcompose/version"
+	"github.com/vend/libcompose/project"
+	"github.com/vend/libcompose/project/options"
+	"github.com/vend/libcompose/version"
 	"github.com/urfave/cli"
 )
 

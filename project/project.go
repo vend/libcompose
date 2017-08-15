@@ -11,12 +11,12 @@ import (
 	"golang.org/x/net/context"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/docker/libcompose/config"
-	"github.com/docker/libcompose/logger"
-	"github.com/docker/libcompose/lookup"
-	"github.com/docker/libcompose/project/events"
-	"github.com/docker/libcompose/utils"
-	"github.com/docker/libcompose/yaml"
+	"github.com/vend/libcompose/config"
+	"github.com/vend/libcompose/logger"
+	"github.com/vend/libcompose/lookup"
+	"github.com/vend/libcompose/project/events"
+	"github.com/vend/libcompose/utils"
+	"github.com/vend/libcompose/yaml"
 )
 
 // ComposeVersion is name of docker-compose.yml file syntax supported version

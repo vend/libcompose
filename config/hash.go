@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/docker/libcompose/yaml"
+	"github.com/vend/libcompose/yaml"
 )
 
 // GetServiceHash computes and returns a hash that will identify a service.

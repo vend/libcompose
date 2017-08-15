@@ -10,11 +10,11 @@ import (
 	"github.com/docker/docker/runconfig/opts"
 	"github.com/docker/go-connections/nat"
 	"github.com/docker/go-units"
-	"github.com/docker/libcompose/config"
-	composeclient "github.com/docker/libcompose/docker/client"
-	composecontainer "github.com/docker/libcompose/docker/container"
-	"github.com/docker/libcompose/project"
-	"github.com/docker/libcompose/utils"
+	"github.com/vend/libcompose/config"
+	composeclient "github.com/vend/libcompose/docker/client"
+	composecontainer "github.com/vend/libcompose/docker/container"
+	"github.com/vend/libcompose/project"
+	"github.com/vend/libcompose/utils"
 	"golang.org/x/net/context"
 )
 

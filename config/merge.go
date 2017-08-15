@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/docker/docker/pkg/urlutil"
-	"github.com/docker/libcompose/utils"
-	composeYaml "github.com/docker/libcompose/yaml"
+	"github.com/vend/libcompose/utils"
+	composeYaml "github.com/vend/libcompose/yaml"
 	"gopkg.in/yaml.v2"
 	"reflect"
 )

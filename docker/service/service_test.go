@@ -3,7 +3,7 @@ package service
 import (
 	"testing"
 
-	"github.com/docker/libcompose/config"
+	"github.com/vend/libcompose/config"
 	"github.com/stretchr/testify/assert"
 )
 

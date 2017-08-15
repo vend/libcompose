@@ -11,12 +11,12 @@ import (
 	"github.com/docker/docker/api/types"
 	containertypes "github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/network"
-	"github.com/docker/libcompose/config"
-	composecontainer "github.com/docker/libcompose/docker/container"
-	"github.com/docker/libcompose/labels"
-	"github.com/docker/libcompose/project"
-	"github.com/docker/libcompose/project/events"
-	util "github.com/docker/libcompose/utils"
+	"github.com/vend/libcompose/config"
+	composecontainer "github.com/vend/libcompose/docker/container"
+	"github.com/vend/libcompose/labels"
+	"github.com/vend/libcompose/project"
+	"github.com/vend/libcompose/project/events"
+	util "github.com/vend/libcompose/utils"
 )
 
 func (s *Service) createContainer(ctx context.Context, namer Namer, oldContainer string, configOverride *config.ServiceConfig, oneOff bool) (*composecontainer.Container, error) {

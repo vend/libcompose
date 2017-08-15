@@ -20,10 +20,10 @@ import (
 	"github.com/docker/docker/pkg/stdcopy"
 	"github.com/docker/docker/pkg/term"
 	"github.com/docker/go-connections/nat"
-	"github.com/docker/libcompose/config"
-	"github.com/docker/libcompose/labels"
-	"github.com/docker/libcompose/logger"
-	"github.com/docker/libcompose/project"
+	"github.com/vend/libcompose/config"
+	"github.com/vend/libcompose/labels"
+	"github.com/vend/libcompose/logger"
+	"github.com/vend/libcompose/project"
 )
 
 // Container holds information about a docker container and the service it is tied on.
