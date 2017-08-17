@@ -108,9 +108,9 @@ type ServiceConfig struct {
 	ExternalLinks   []string             `yaml:"external_links,omitempty"`
 	ExtraHosts      []string             `yaml:"extra_hosts,omitempty"`
 	GroupAdd        []string             `yaml:"group_add,omitempty"`
+	Hostname        string               `yaml:"hostname,omitempty"`
 	Image           string               `yaml:"image,omitempty"`
 	Isolation       string               `yaml:"isolation,omitempty"`
-	Hostname        string               `yaml:"hostname,omitempty"`
 	Ipc             string               `yaml:"ipc,omitempty"`
 	Labels          yaml.SliceorMap      `yaml:"labels,omitempty"`
 	Links           yaml.MaporColonSlice `yaml:"links,omitempty"`
@@ -128,6 +128,7 @@ type ServiceConfig struct {
 	Ports           []string             `yaml:"ports,omitempty"`
 	Privileged      bool                 `yaml:"privileged,omitempty"`
 	SecurityOpt     []string             `yaml:"security_opt,omitempty"`
+	ServiceGroups   []string             `yaml:"service_groups,omitempty"`
 	ShmSize         yaml.MemStringorInt  `yaml:"shm_size,omitempty"`
 	StopGracePeriod string               `yaml:"stop_grace_period,omitempty"`
 	StopSignal      string               `yaml:"stop_signal,omitempty"`
