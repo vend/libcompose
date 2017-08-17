@@ -341,6 +341,7 @@ var servicesSchemaDataV2 = `{
 
         "privileged": {"type": "boolean"},
         "read_only": {"type": "boolean"},
+        "repo": {"type": "string"},
         "restart": {"type": "string"},
         "security_opt": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
         "service_groups": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},

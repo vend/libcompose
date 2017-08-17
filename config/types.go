@@ -127,6 +127,7 @@ type ServiceConfig struct {
 	Pid             string               `yaml:"pid,omitempty"`
 	Ports           []string             `yaml:"ports,omitempty"`
 	Privileged      bool                 `yaml:"privileged,omitempty"`
+	Repo            string               `yaml:"repo,omitempty"`
 	SecurityOpt     []string             `yaml:"security_opt,omitempty"`
 	ServiceGroups   []string             `yaml:"service_groups,omitempty"`
 	ShmSize         yaml.MemStringorInt  `yaml:"shm_size,omitempty"`
